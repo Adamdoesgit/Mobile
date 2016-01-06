@@ -1,6 +1,11 @@
+//Alexander Bulanov, Adam Barszczak
 
 public class Branch {
-  public static void main(String[] args){
-    
-  }
+	public double length;
+	
+	
+	public Branch(double length, Structure structure) {
+		
+	}
+	
 }
