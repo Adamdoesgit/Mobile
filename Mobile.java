@@ -1,6 +1,13 @@
+//Alexander Bulanov, Adam Barszczak
 
-public class Mobile {
-  public static void main(String[] args) {
-    
-  }
+public class Mobile extends Structure {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public Mobile(Branch LeftBranch, Branch RightBranch) {
+		
+	}
+
 }
