@@ -1,14 +1,17 @@
 //Alexander Bulanov, Adam Barszczak
 
-public class Weight extends Structure {
+public class Weight implements Structure {
 	public double weight;
-
-	public static void main(String[] args) {
-
-	}
 
 	public Weight(double weight) {
 		this.weight = weight;
 	}
 
+	public double getWeight() {
+		return weight;
+	}
+	
+	public boolean isBalanced() {
+		return true;
+	}
 }
