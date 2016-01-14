@@ -1,11 +1,8 @@
 //Alexander Bulanov, Adam Barszczak
 
-public class Structure {
+public interface Structure {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	boolean isBalanced();
+	double getWeight();
 
-	}
-
-	
 }
